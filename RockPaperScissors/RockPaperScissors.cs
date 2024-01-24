@@ -69,6 +69,7 @@
             else if((playerMove == Scissors && computerMove == Rock) || (playerMove == Rock && computerMove == Paper) || (playerMove == Paper && computerMove == Scissors))
             {
                 Console.WriteLine("You lose.");
+                ;
             }
         }
     }
